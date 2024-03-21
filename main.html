@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../лаб67/style1.css" type="text/css">
+    <title>Сделать заказ</title>
+</head>
+<body>
+<header>
+   
+    <div class="dropdown"><a href="../лаб67/prof-menu.html"><img src="../лаб67/person.png"></a>
+    <div class="dropdown-content">
+      <a href="../лаб67/planning.html">Запланировать поездку</a>
+      <a href="../лаб67/history.html">История поездок</a>
+      <a href="../лаб67/card.html">Отвязать карту</a>
+      <a href="../лаб67/enter.html">Выйти</a>
+    </div>
+    </div>
+    <a href="../лаб67/main.html" class="logo"><img src="../лаб67/logo_taxi(new)1.png" width="100px" height="auto"></a>
+
+</header>
+<div class="container">
+<div class="left-side">
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A35c4cb05a3b0e14d569ee69ffa4e113a29fd7556398777d9b227239459474fb7&amp;source=constructor"  frameborder="0"></iframe></div>
+<div class="right-side">
+    <div class="top-block">
+        <div class="top-content">
+            <div class="head-order">Сделать заказ</div>
+            <div class="for-forma"> <form id="order" action="">
+                <input type="text" name="place-one" placeholder="Текущее месторасположение">
+                <br><br><br>
+                <input type="text" name="place-two" placeholder="Место назначения">
+                    <div class="container-for-radio">
+                        <div class="radio-tile-group">
+                  
+                          <div class="input-container">
+                            <input id="econom" type="radio" name="tarif">
+                            <div class="radio-tile">
+                              <label for="econom">
+                                <div class="label-label">
+                                <div class="img-label"><img src="../лаб67/taxi.png"></div>
+                                <div class="tarif-label">Эконом</div>
+                               </div></label>
+                            </div>
+                          </div>
+                  
+                          <div class="input-container">
+                            <input id="comfort" type="radio" name="tarif">
+                            <div class="radio-tile">
+                              <label for="comfort">
+                                <div class="label-label">
+                                  <div class="img-label"><img src="../лаб67/taxi.png"></div>
+                                  <div class="tarif-label">Комфорт</div>
+                                 </div>
+                              </label>
+                            </div>
+                          </div>
+                  
+                          <div class="input-container">
+                            <input id="business" type="radio" name="tarif">
+                            <div class="radio-tile">
+                              <label for="business"><div class="label-label">
+                                <div class="img-label"><img src="../лаб67/taxi.png"></div>
+                                <div class="tarif-label">Бизнес</div>
+                               </div></label>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+            </form>
+        </div></div></div>
+        <div class="bottom-block">
+            <div class="bottom-content">
+                <a href="../лаб67/planning.html" class="plan-text"><div>Запланировать поездку</div>
+                 <div><img src="../лаб67/strelka.png"></div>
+                </a>
+                <hr>
+            <div class="card-and-btn">
+              <a href="../лаб67/card.html" class="card"><img src="../лаб67/card.png"></a>
+                <div class="order-btn1"><a href="../лаб67/order.html" class="order-btn" form="order">Заказать</a></div>
+              </div></div></div>
+    
+</div>
+</div>
+</body>
+</html>

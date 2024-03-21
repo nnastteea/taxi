@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lato&family=Syncopate:wght@700&display=swap");
+h1 {
+  font: 34px, "Regular", "Lato", sans-serif;
+  color: #000000;
+}
+
+h2 {
+  font: 20px, "Regular", "Lato", sans-serif;
+  color: rgba(160, 166, 197, 0.6980392157);
+}
+
+p {
+  font: 24px, "Regular", "Lato", sans-serif;
+  color: rgba(0, 0, 0, 0.6980392157);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #A0A6C5;
+}
+
+body::-webkit-scrollbar {
+  width: 2px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #A0A6C5;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #A0A6C5;
+  border: none;
+}
+
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+input[type=email], input[type=text] {
+  background-color: #A0A6C5;
+  border: none;
+  border-bottom: 2px solid #000000;
+  color: #4C4C4C;
+  font-size: 16px;
+  outline: none;
+  width: 350px;
+  padding-left: 10px;
+  transition: 0.8s;
+}
+input[type=email]:focus, input[type=text]:focus {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #2E3366;
+  transform: scale(1.05, 1.05);
+  background-color: #A0A6C5;
+  color: #000000;
+}
+input[type=email]:hover, input[type=text]:hover {
+  border-bottom: 2px solid #2E3366;
+}
+input[type=email]:not(:placeholder-shown), input[type=text]:not(:placeholder-shown) {
+  background-color: #A0A6C5;
+}
+input[type=email]:invalid, input[type=text]:invalid {
+  border-bottom: 2px solid #72000E;
+}
+
+.for-label {
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+}
+
+.for-forma {
+  text-align: center;
+  margin-top: 85px;
+}
+
+.start-btn {
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  margin-top: 90px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 75px;
+  padding-right: 75px;
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  background-color: #000000;
+  color: #ECEBEB;
+}
+.start-btn:hover {
+  background-color: #2E3366;
+  box-shadow: 0 0 0.8em #ECEBEB;
+}
+
+.start-btn1 {
+  margin-top: 85px;
+  transition: 1.2s;
+}
+.start-btn1:hover {
+  transform: scale(1.04, 1.04);
+}
+
+.acc-reg {
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.7s;
+  color: #2E3366;
+}
+.acc-reg:hover {
+  text-decoration: underline;
+  color: #2E3366;
+}
+
+.center {
+  font-family: "Lato", sans-serif;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.logo1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.for-forma1 {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.start-btn11r {
+  margin-top: 70px;
+  transition: 1.2s;
+}
+.start-btn11r:hover {
+  transform: scale(1.04, 1.04);
+}
+
+.start-btn1r {
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  margin-top: 90px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  background-color: #000000;
+  color: #ECEBEB;
+}
+.start-btn1r:hover {
+  background-color: #2E3366;
+  box-shadow: 0 0 0.8em #ECEBEB;
+}
+
+.logo2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+}
+
+header {
+  line-height: 50px;
+  background-color: #A0A6C5;
+}
+
+@media (min-width: 420px) {
+  .start-btn {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media (min-width: 768px) {
+  .start-btn {
+    font-size: 14px;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    padding-left: 65px;
+    padding-right: 55px;
+  }
+}
+@media (min-width: 1024px) {
+  .start-btn {
+    font-size: 18px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+@media (min-width: 420px) {
+  input[type=email], input[type=text] {
+    font-size: 14px;
+    width: 250px;
+  }
+}
+@media (min-width: 768px) {
+  input[type=email], input[type=text] {
+    font-size: 14px;
+    width: 300px;
+  }
+}
+@media (min-width: 1024px) {
+  input[type=email], input[type=text] {
+    font-size: 16px;
+    width: 350px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

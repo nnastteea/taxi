@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lato&family=Syncopate:wght@700&display=swap');
+
+$color1:#A0A6C5;
+$color2:#2E3366;
+$color3:#000000;
+$color4: #ECEBEB;
+$color5: #a0a6c5b2;
+$color6:#4C4C4C;
+
+$font: 'Lato', sans-serif;
+
+h1{
+    font:34px, 'Regular', $font;
+    color:#000000;
+}
+h2{
+    font:20px, 'Regular', $font;
+    color:#a0a6c5b2;
+}
+p{
+    font:24px, 'Regular', $font;
+    color:#000000b2;
+}
+
+
+//
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  a{text-decoration: none;}
+  body {
+    background-color: #A0A6C5;
+  }
+  body::-webkit-scrollbar {
+    width: 2px;
+  }
+  body::-webkit-scrollbar-track {
+    background: $color1; 
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color:$color1; 
+    border:none; 
+  }
+  .logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+  }
+  input[type="email"], input[type="text"]{
+    background-color: $color1;
+    border:none;
+    border-bottom: 2px solid $color3;
+    color:$color6;
+    font-size: 16px;
+    outline: none;
+    width: 350px;
+    padding-left: 10px;
+    transition: 0.8s;
+
+    &:focus{
+        outline: none;
+    border: none;
+    border-bottom: 2px solid $color2;
+    transform: scale(1.05, 1.05);
+    background-color: $color1;
+    color:$color3;
+    }
+    &:hover{
+        border-bottom: 2px solid $color2;
+    }
+    &:not(:placeholder-shown){
+        background-color: $color1;
+    }
+    &:invalid{
+        border-bottom: 2px solid #72000E;
+    }
+  }
+
+  .for-label{
+    font-family: $font;
+    font-size: 22px;
+  }
+  .for-forma{
+    text-align: center;
+    margin-top: 85px;
+  }
+  .start-btn{
+    cursor: pointer;
+    font-family: $font;
+    font-size: 20px;
+    margin-top: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 75px;
+    padding-right: 75px;
+    border-radius: 25px;
+    border:none;
+    text-align: center;
+    background-color: $color3;
+    color:$color4;
+    
+    &:hover{
+      background-color: $color2;
+      box-shadow:0 0 0.8em $color4;
+      
+    }
+  }
+  .start-btn1{
+    margin-top: 85px;
+    transition: 1.2s;
+    &:hover{
+      transform: scale(1.04, 1.04);
+    }
+  }
+
+  .acc-reg{
+    font-family: $font;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.7s;
+    color:$color2;
+    &:hover{
+      text-decoration: underline;
+      color:$color2;
+    }
+  }
+  .center{
+    font-family: $font;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .logo1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+
+  .for-forma1{
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .start-btn11r{
+    margin-top: 70px;
+    transition: 1.2s;
+    &:hover{
+      transform: scale(1.04, 1.04);
+    }
+  }
+
+  .start-btn1r{
+    cursor: pointer;
+    font-family: $font;
+    font-size: 18px;
+    margin-top: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 25px;
+    border:none;
+    text-align: center;
+    background-color: $color3;
+    color:$color4;
+    
+    &:hover{
+      background-color: $color2;
+      box-shadow:0 0 0.8em $color4;
+      
+    }
+  }
+
+  @media (min-width: 420px) {
+    .start-btn {
+      font-size: 12px;
+      padding-top: 10px;
+    padding-bottom: 11px;
+    padding-left: 60px;
+    padding-right: 60px;
+    }}
+  @media (min-width: 768px) {
+      .start-btn {
+        font-size: 14px;
+        padding-top: 12px;
+    padding-bottom: 13px;
+    padding-left: 65px;
+    padding-right: 55px;
+  }}
+  @media (min-width: 1024px) {
+        .start-btn {
+          font-size: 18px;
+          padding-top: 14px;
+    padding-bottom: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }}
+
+
+  @media (min-width: 420px) {
+    input[type="email"], input[type="text"] {
+      font-size: 14px;
+    width: 250px;
+    }}
+  @media (min-width: 768px) {
+    input[type="email"], input[type="text"] {
+      font-size: 14px;
+      width: 300px;
+  }}
+  @media (min-width: 1024px) {
+    input[type="email"], input[type="text"]  {
+      font-size: 16px;
+      width: 350px;
+  }}

@@ -1,0 +1,202 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lato&family=Syncopate:wght@700&display=swap");
+h1 {
+  font: 34px, "Regular", "Lato", sans-serif;
+  color: #000000;
+}
+
+h2 {
+  font: 20px, "Regular", "Lato", sans-serif;
+  color: rgba(160, 166, 197, 0.6980392157);
+}
+
+p {
+  font: 24px, "Regular", "Lato", sans-serif;
+  color: rgba(0, 0, 0, 0.6980392157);
+}
+
+input::-webkit-input-placeholder {
+  color: rgb(0, 0, 0);
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+/*Убрать полосу прокрутки для всей страницы*/
+::-webkit-scrollbar {
+  width: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  margin-left: 43%;
+  height: 50px;
+  background-color: #A0A6C5;
+}
+
+header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: left;
+  padding-left: 2%;
+  height: 60px;
+  background-color: #A0A6C5;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.container1 {
+  margin-top: 2%;
+  height: 80vh;
+  width: 55%;
+  background-color: #e7e7e7;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0 0 0.5rem #A0A6C5;
+}
+
+.head-order {
+  color: #000000;
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.menu {
+  color: #000000;
+  font-family: "Lato", sans-serif;
+  font-size: 26px;
+  margin-left: 13%;
+}
+
+.menu-a a {
+  color: black;
+  transition: 0.5s;
+}
+.menu-a a:hover {
+  color: #2E3366;
+}
+.menu-a a:active {
+  color: #4C4C4C;
+}
+.menu-a a:visited {
+  color: black;
+}
+
+.menu-a {
+  transition: 0.6s;
+  margin-bottom: 25px;
+  border: none;
+  border-bottom: 2px solid #A0A6C5;
+  width: 85%;
+}
+
+.menu-a:hover {
+  transform: scale(1.05);
+  border-bottom: 2px solid #000000;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  margin-top: 5px;
+  margin-left: 5px;
+  display: none;
+  position: absolute;
+  background-color: rgba(238, 238, 238, 0.9098039216);
+  min-width: 400px;
+  z-index: 1;
+  border: none;
+  transition: opacity 0, 0.9s ease;
+}
+
+.dropdown-content a {
+  font-family: "Lato", sans-serif;
+  border: 1px solid #A0A6C5;
+  color: black;
+  padding: 20px 25px;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #2E3366;
+  color: white;
+}
+
+/* Показать выпадающее меню при наведении курсора */
+.dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .logo {
+    margin-left: 39%;
+  }
+  .head-order {
+    font-size: 26px;
+  }
+  .menu {
+    font-size: 24px;
+  }
+  .container1 {
+    width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  .logo {
+    margin-left: 37%;
+  }
+  .head-order {
+    font-size: 22px;
+  }
+  .menu {
+    font-size: 18px;
+  }
+  .container1 {
+    width: 65%;
+  }
+}
+@media (max-width: 440px) {
+  .logo {
+    margin-left: 27%;
+  }
+  .head-order {
+    font-size: 22px;
+  }
+  .menu {
+    font-size: 20px;
+  }
+  .container1 {
+    margin-top: 4%;
+    width: 90%;
+    height: 80vh;
+  }
+}
+
+/*# sourceMappingURL=style2.css.map */
